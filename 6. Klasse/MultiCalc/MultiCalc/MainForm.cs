@@ -63,7 +63,7 @@ namespace MultiCalc
 
 			// IF-ELSE Anweisung zur obigen SWITCH Anweisung
 
-			if (operation == "Addition")
+			/*if (operation == "Addition")
 			{
 				result = param1 + param2;
 			}
@@ -91,7 +91,7 @@ namespace MultiCalc
 						}
 					}
 				}
-			}
+			}*/
 
 		}
 	}
