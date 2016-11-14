@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="FontSize.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="FontSize"
+	Height="300"
+	Width="330">
+	<Grid
+		RenderTransformOrigin="0.5,0.5261"
+		Background="#FFFFAAAA">
+		<TextBox
+			RenderTransformOrigin="0.5333,-3.05"
+			Height="20"
+			Width="274"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="8,21,0,0"
+			x:Name="m_tbPreview" />
+		<Label
+			Height="31"
+			Width="274"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="8,0,0,174"
+			x:Name="m_lblPreview"
+			Background="#FFEAE8E8" />
+		<Button
+			RenderTransformOrigin="-0.1133,-0.1957"
+			Width="67"
+			Height="32"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="8,123,0,0"
+			x:Name="m_btnFontSizeUp"
+			Content="+"
+			FontSize="14"
+			Click="m_btnFontSizeUp_Click" />
+		<Button
+			RenderTransformOrigin="-0.1133,-0.1957"
+			Width="92"
+			Height="32"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="99,123,0,0"
+			x:Name="m_btnSetPreview"
+			Content="Set Preview"
+			Click="m_btnSetPreview_Click" />
+		<Button
+			RenderTransformOrigin="-0.1133,-0.1957"
+			Width="67"
+			Height="32"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="215,123,0,0"
+			x:Name="m_btnFontSizeDown"
+			Content="-"
+			Click="m_btnFontSizeDown_Click" />
+		<Button
+			Width="75"
+			Height="23"
+			RenderTransformOrigin="0.4054,0.587"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="153.5,208.5,0,0"
+			x:Name="m_btnSetFontSize"
+			Content="Set FontSize"
+			Click="m_btnSetFontSize_Click" />
+		<TextBox
+			Width="120"
+			Height="20"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="15,0,0,37.5"
+			x:Name="m_tbFontSize" />
+		<Button
+			Width="92"
+			Height="37"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="99,163,0,0"
+			Content="Delete"
+			x:Name="m_btnDeletePreview"
+			Click="m_btnDeletePreview_Click" />
+		<TextBox
+			Height="20"
+			Grid.Column="0"
+			Grid.Row="0"
+			VerticalAlignment="Bottom"
+			x:Name="m_tbFontSizeOutput"
+			IsReadOnly="True"
+			Width="120"
+			HorizontalAlignment="Left"
+			Margin="15,0,0,8" />
+	</Grid>
+</Window>
