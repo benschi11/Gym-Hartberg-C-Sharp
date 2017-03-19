@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 5.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsp3", "PLF-Uebung\Bsp3.csproj", "{6D5CD200-C06B-4A75-AF7B-C003FD6BC64A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsp3", "Bsp3\Bsp3.csproj", "{6D5CD200-C06B-4A75-AF7B-C003FD6BC64A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bsp4", "Bsp4\Bsp4.csproj", "{39D43049-C041-4EF9-A4F5-1E18EEB92B6A}"
 EndProject
